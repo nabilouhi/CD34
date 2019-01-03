@@ -2,14 +2,14 @@
 //document.getElementById("d3V").src="https://d3js.org/d3.v3.min.js";
 var HTML=`<div class="jumbotron text-center">
     <h1>Radar</h1>      
-    <p>Notez de 1 (mauvaise) à 4 (bonne) votre actions pour chaque objectifs de développement durable</p>
+    <p>Notez de 1 (mauvaise) à 4 (bonne) votre action pour chaque objectif de développement durable</p>
   </div>
 <div class="container-fluid">
   <table class="table">
     <thead>
       <tr>
         <th>#</th>
-		<td>description</td>
+	<th>Description</th>
         <th class="text-center">note</th>
       </tr>
     </thead>
@@ -308,7 +308,7 @@ function PDF(){
 			var img= canvas.toDataURL("image/png");
 			console.log("here");
 			var doc = new jsPDF('landscape');
-			doc.addImage(img, 'JPEG',25, 50,320,120);
+			doc.addImage(img, 'JPEG',25, 50,300,120);
 			doc.save('Radar.pdf');
 		
 	});
