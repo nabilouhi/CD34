@@ -160,6 +160,7 @@ var HTML=`<div class="jumbotron text-center">
   <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" height=55px></div>
   <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" height=55px></div>
 			</div>
+<br><br>
  <div class="row"style="padding-left:30px;"><textarea class="form-control" rows="5" id="comment"> Commentaire:</textarea></div>
 	  
   </div>
@@ -169,7 +170,8 @@ var HTML=`<div class="jumbotron text-center">
 </div>
 </div>
 
-<div class="text-center" ><button type="button" class="btn" onclick="PDF()">Export PDF</button></div>	
+<div class="text-center" ><button type="button" class="btn" onclick="PDF()">Export PDF</button></div>
+<div class="text-center" ><button type="button" class="btn" onclick="PDF2()">Export JPEG</button></div>	
 <br><br>
 
 <p class="text-center"><a href="https://www.un.org/sustainabledevelopment/fr/">OBJECTIFS de Developpement Durable</a></p> `;
@@ -311,6 +313,15 @@ function PDF(){
 			var doc = new jsPDF('landscape');
 			doc.addImage(img, 'JPEG',25, 50,300,120);
 			doc.save('Radar.pdf');
+		
+	});
+function PDF2(){
+	html2canvas(document.getElementById("CONTENU")).then(function (canvas){
+			var img= canvas.toDataURL("image/png");
+			console.log("here");
+			var doc = new jsPDF('landscape');
+			doc.addImage(img, 'JPEG',25, 50,300,120);
+			doc.save('Radar.jpg');
 		
 	});
 //var ProjectName="Projet";
