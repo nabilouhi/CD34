@@ -1,6 +1,6 @@
 ﻿function climat(){
 
-var info = '<div class="row" style="margin-left:10px;"><h3> Environnment</h3> '+
+var info = '<div class="row" style="margin-left:10px;"><h3> Environnement</h3> '+
 
 		'<ul class="nav nav-pills">'+
 			'<li class="active"><a data-toggle="pill" href="#menu1">Climatologie</a></li>'+
