@@ -315,6 +315,7 @@ function PDF(){
 			doc.save('Radar.pdf');
 		
 	});
+}	
 function PDF2(){
 	html2canvas(document.getElementById("CONTENU")).then(function (canvas){
 			var img= canvas.toDataURL("image/png");
