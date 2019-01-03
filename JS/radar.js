@@ -160,6 +160,7 @@ var HTML=`<div class="jumbotron text-center">
   <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" height=55px></div>
   <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" height=55px></div>
 			</div>
+ <div class="row"style="padding-left:30px;"><textarea class="form-control" rows="5" id="comment"> Commentaire:</textarea></div>
 	  
   </div>
 
