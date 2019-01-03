@@ -2,7 +2,7 @@
 //document.getElementById("d3V").src="https://d3js.org/d3.v3.min.js";
 var HTML=`<div class="jumbotron text-center">
     <h1>Radar</h1>      
-    <p>Notez de 1 (mauvaise) à 4 (bonne) votre action pour chaque objectif de développement durable</p>
+    <p> Evaluez le niveau de contribution de votre action à chaque ODD (1=Faible contribution  4=Contribution significative)</p>
   </div>
 <div class="container-fluid">
   <table class="table">
@@ -16,14 +16,14 @@ var HTML=`<div class="jumbotron text-center">
     <tbody>
       <tr>
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" height=70px></td>
-		<td>Pas de pauvereté</td>
+		<td>Pas de pauvreté</td>
         <td> 
 			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex1',this.value)" >	
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" height=70px></td>
-		<td>FAIM "ZERO"</td>
+		<td> Faim "zéro"</td>
         <td> 
 			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex2',this.value)" >
 		</td>
@@ -72,7 +72,7 @@ var HTML=`<div class="jumbotron text-center">
       </tr>
 		<tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-09.png" height=70px></td>
-		<td>industrie Innovation</td>
+		<td>Industrie Innovation</td>
         <td> 
 			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex9',this.value)" >
 		</td>
@@ -107,14 +107,14 @@ var HTML=`<div class="jumbotron text-center">
       </tr>
 	        <tr>
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-14.png" height=70px></td>
-		<td>vie aquatique</td>
+		<td>Vie aquatique</td>
         <td> 
 			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex14',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" height=70px></td>
-		<td>vie terrestre</td>
+		<td>Vie terrestre</td>
         <td> 
 			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex15',this.value)" >
 		</td>
