@@ -140,33 +140,33 @@ var HTML=`<div class="jumbotron text-center">
   
   <div class="row"style="padding-left:30px;"><input type="text" class="form-control" value="Titre" style="padding-left:20px"><br><br></div>
 		<div class="row">
-<div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-01.png" height=65px></div>
-<div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-02.png" height=65px></div>
-<div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-03.png" height=65px></div>
+<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" height=65px></div>
+<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" height=65px></div>
+<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-03.png" height=65px></div>
 		</div>
 		<div class="row">
-<div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-04.png" height=65px></div>
-<div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-05.png" height=65px></div>
-<div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-06.png" height=65px></div>
+<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-04.png" height=65px></div>
+<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-05.png" height=65px></div>
+<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-06.png" height=65px></div>
 		</div>
 		<div class="row">
-  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-07.png" height=65px></div>
-  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-08.png" height=65px></div>			
-  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-09.png" height=65px></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-07.png" height=65px></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-08.png" height=65px></div>			
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-09.png" height=65px></div>
   		</div>
 		<div class="row">
-  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-10.png" height=65px></div>
-  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-11.png" height=65px></div>
-  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-12.png" height=65px></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-10.png" height=65px></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-11.png" height=65px></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-12.png" height=65px></div>
 		</div>
 		<div class="row">
-  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-13.png" height=65px></div>
-  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-14.png" height=65px></div>
-  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-15.png" height=65px></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-13.png" height=65px></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-14.png" height=65px></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" height=65px></div>
   		</div>
 		<div class="row">
-  <div class="col-sm-6" ><img src="img/F_SDG goals_icons-individual-rgb-16.png" height=65px></div>
-  <div class="col-sm-6" ><img src="img/F_SDG goals_icons-individual-rgb-17.png" height=65px></div>
+  <div class="col-sm-6" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" height=65px></div>
+  <div class="col-sm-6" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-17.png" height=65px></div>
 		</div>
 <br><br>
  <div class="row"style="padding-left:30px;"><textarea class="form-control" rows="5" id="comment"> Commentaire:</textarea></div>
