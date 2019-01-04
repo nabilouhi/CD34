@@ -336,14 +336,7 @@ function PDF(){
 	});
 }	
 function PDF2(){
-	html2canvas(document.getElementById("CONTENU")).then(function (canvas){
-			var img= canvas.toDataURL("image/png");
-			console.log("here");
-			var doc = new jsPDF('landscape');
-			doc.addImage(img, 'JPEG',25, 50,300,120);
-			doc.save('Radar.jpg');
-		
-	});
+	alert("[En construction...]");
 //var ProjectName="Projet";
 //doc.text(ProjectName, 10, 10)
 }		
