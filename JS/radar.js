@@ -316,13 +316,23 @@ var svg = d3.select('zz').append("svg")
 		}
 		
 function PDF(){
+	var Titre=document.getElementById("titre").value;
+	var Comment=document.getElementById("comment").value;
+	if (Titre=="Titre"){console.log("yes");document.getElementById("titre").value="";};
+	if (Comment=="Commentaire:"){console.log("yes");document.getElementById("comment").value="";};
+	
 	html2canvas(document.getElementById("CONTENU")).then(function (canvas){
-			var img= canvas.toDataURL("image/png");
-			console.log("here");
-			var doc = new jsPDF('landscape');
-			doc.addImage(img, 'JPEG',25, 50,300,120);
+			var img= canvas.toDataURL("image/jpeg",1.0);
+			
+			var doc = new jsPDF("l", "mm", "a4");
+			var width = doc.internal.pageSize.getWidth();
+			var height = doc.internal.pageSize.getHeight()-40;
+			doc.addImage(img, 'JPEG', 0, 20, width, height,'FAST');
+			//console.log("here");
 			doc.save('Radar.pdf');
 		
+	document.getElementById("titre").value="Titre";
+	document.getElementById("comment").value="Commentaire:";	
 	});
 }	
 function PDF2(){
