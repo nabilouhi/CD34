@@ -1,4 +1,4 @@
 ﻿function rsa(){
-var info ='<h2 class="text-center" >RSA</h2>';
+var info ='<h2 class="text-center" >RSA [En construction ...]</h2>';
 document.getElementById("INFO").innerHTML=info;
 }
