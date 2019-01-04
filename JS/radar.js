@@ -14,117 +14,120 @@ var HTML=`<div class="jumbotron text-center">
       </tr>
     </thead>
     <tbody>
-      <tr>
+ <tr>
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" height=70px></td>
 		<td>Pas de pauvreté</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex1',this.value)" >	
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex1',this.value)" >	
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" height=70px></td>
 		<td> Faim "zéro"</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex2',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex2',this.value)" >
 		</td>
       </tr>
 	  <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-03.png" height=70px></td>
 		<td>Bonne santé </td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex3',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex3',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-04.png" height=70px></td>
 		<td>Education</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex4',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex4',this.value)" >
 		</td>
       </tr>
 	  <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-05.png" height=70px></td>
 		<td>Egalité des sexes</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex5',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex5',this.value)" >
 		</td>
       </tr>
 	        <tr>
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-06.png" height=70px></td>
 		<td>Eau propre</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex6',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex6',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-07.png" height=70px></td>
 		<td>Energie propre</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex7',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex7',this.value)" >
 		</td>
       </tr>
 			<tr>
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-08.png" height=70px></td>
 		<td>Travail décent & croissance</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex8',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex8',this.value)" >
 		</td>
       </tr>
 		<tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-09.png" height=70px></td>
 		<td>Industrie Innovation</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex9',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex9',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-10.png" height=70px></td>
 		<td>Inégalités réduites</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex10',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex10',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-11.png" height=70px></td>
 		<td>Villes durables</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex11',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex11',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-12.png" height=70px></td>
 		<td>Consommation responsable</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex12',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex12',this.value)" >
 		</td>
       </tr>
 	  <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-13.png" height=70px></td>
 		<td>Changement climatique</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex13',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex13',this.value)" >
 		</td>
       </tr>
 	        <tr>
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-14.png" height=70px></td>
 		<td>Vie aquatique</td>
         <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex14',this.value)" >
+			<input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex14',this.value)" >
 		</td>
       </tr>
 	        <tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" height=70px></td>
 		<td>Vie terrestre</td>
-        <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex15',this.value)" >
-		</td>
-      </tr>
-	        <tr >
+        <td> <input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex15',this.value)" ></td>
+</tr>
+<tr >
         <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" height=70px></td>
 		<td>Paix et justice</td>
-        <td> 
-			<input  type="range" min=1 max=4 step=1 value=4 class="slider" id="'ex1'" oninput="Change('ex16',this.value)" >
-		</td>
+        <td> <input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex16',this.value)" ></td> 
+</tr>
+<tr >
+        <td ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-17.png" height=70px></td>
+		<td>Partenariat</td>
+        <td> <input  type="range" min=1 max=4 step=1 value=1 class="slider" id="'ex1'" oninput="Change('ex17',this.value)" ></td> 
+</tr>
+
   
      
     </tbody>
@@ -136,30 +139,35 @@ var HTML=`<div class="jumbotron text-center">
   <div class="col-sm-3" >
   
   <div class="row"style="padding-left:30px;"><input type="text" class="form-control" value="Titre" style="padding-left:20px"><br><br></div>
-			<div class="row">
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" height=55px></div>
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-03.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-04.png" height=55px></div>
-			</div>
-			<div class="row">
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-05.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-06.png" height=55px></div>
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-07.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-08.png" height=55px></div>
-			</div>
-			<div class="row">
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-09.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-10.png" height=55px></div>
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-11.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-12.png" height=55px></div>
-			</div>
-			<div class="row">
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-13.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-14.png" height=55px></div>
-  <div class="col-sm-3"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" height=55px></div>
-  <div class="col-sm-3" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" height=55px></div>
-			</div>
+		<div class="row">
+<div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-01.png" height=65px></div>
+<div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-02.png" height=65px></div>
+<div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-03.png" height=65px></div>
+		</div>
+		<div class="row">
+<div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-04.png" height=65px></div>
+<div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-05.png" height=65px></div>
+<div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-06.png" height=65px></div>
+		</div>
+		<div class="row">
+  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-07.png" height=65px></div>
+  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-08.png" height=65px></div>			
+  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-09.png" height=65px></div>
+  		</div>
+		<div class="row">
+  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-10.png" height=65px></div>
+  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-11.png" height=65px></div>
+  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-12.png" height=65px></div>
+		</div>
+		<div class="row">
+  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-13.png" height=65px></div>
+  <div class="col-sm-4" ><img src="img/F_SDG goals_icons-individual-rgb-14.png" height=65px></div>
+  <div class="col-sm-4"><img src="img/F_SDG goals_icons-individual-rgb-15.png" height=65px></div>
+  		</div>
+		<div class="row">
+  <div class="col-sm-6" ><img src="img/F_SDG goals_icons-individual-rgb-16.png" height=65px></div>
+  <div class="col-sm-6" ><img src="img/F_SDG goals_icons-individual-rgb-17.png" height=65px></div>
+		</div>
 <br><br>
  <div class="row"style="padding-left:30px;"><textarea class="form-control" rows="5" id="comment"> Commentaire:</textarea></div>
 	  
@@ -179,27 +187,28 @@ var HTML=`<div class="jumbotron text-center">
 document.getElementById("menu3").innerHTML=HTML;
 
 }
-var data=[{name:"ex1",value:4,color:"#e5243b"},
-{name:"ex2",value:4,color:"#DDA63A"},
-{name:"ex3",value:4,color:"#4C9F38"},
-{name:"ex4",value:4,color:"#C5192D"},
-{name:"ex5",value:4,color:"#FF3A21"},
-{name:"ex6",value:4,color:"#26BDE2"},
-{name:"ex7",value:4,color:"#FCC30B"},
-{name:"ex8",value:4,color:"#A21942"},
-{name:"ex9",value:4,color:"#FD6925"},
-{name:"ex10",value:4,color:"#DD1367"},
-{name:"ex11",value:4,color:"#FD9D24"},
-{name:"ex12",value:4,color:"#BF8B2E"},
-{name:"ex13",value:4,color:"#3F7E44"},
-{name:"ex14",value:4,color:"#0A97D9"},
-{name:"ex15",value:4,color:"#56C02B"},
-{name:"ex16",value:4,color:"#00689D"}];
+var data=[{name:"ex1",value:1,color:"#e5243b"},
+{name:"ex2",value:1,color:"#DDA63A"},
+{name:"ex3",value:1,color:"#4C9F38"},
+{name:"ex4",value:1,color:"#C5192D"},
+{name:"ex5",value:1,color:"#FF3A21"},
+{name:"ex6",value:1,color:"#26BDE2"},
+{name:"ex7",value:1,color:"#FCC30B"},
+{name:"ex8",value:1,color:"#A21942"},
+{name:"ex9",value:1,color:"#FD6925"},
+{name:"ex10",value:1,color:"#DD1367"},
+{name:"ex11",value:1,color:"#FD9D24"},
+{name:"ex12",value:1,color:"#BF8B2E"},
+{name:"ex13",value:1,color:"#3F7E44"},
+{name:"ex14",value:1,color:"#0A97D9"},
+{name:"ex15",value:1,color:"#56C02B"},
+{name:"ex16",value:1,color:"#00689D"},
+{name:"ex17",value:1,color:"#19486A"}];
 
 
 function Change(ID,valeur){	
 	 document.getElementsByTagName("zz")[0].innerHTML="";
-	for (i=0;i<16;i++){
+	for (i=0;i<17;i++){
 		if(data[i].name==ID){data[i].value=Number(valeur)};	
 	}
 	console.log(data);
