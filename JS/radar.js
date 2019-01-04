@@ -138,7 +138,7 @@ var HTML=`<div class="jumbotron text-center">
 <div class="row" >
   <div class="col-sm-3" >
   
-  <div class="row"style="padding-left:30px;"><input type="text" class="form-control" value="Titre" style="padding-left:20px"><br><br></div>
+  <div class="row"style="padding-left:30px;"><input id="titre" type="text" class="form-control" value="Titre" style="padding-left:20px"><br><br></div>
 		<div class="row">
 <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" height=65px></div>
 <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" height=65px></div>
