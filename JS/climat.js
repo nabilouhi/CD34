@@ -13,32 +13,55 @@ var info = '<div class="row" style="margin-left:10px;"><h3> Environnement</h3> '
 			'<div id="menu1" class="tab-pane fade in active">'+
 				'<div class="row">'+
 					'<div class="col-sm-3" style="height:420px;border:1px black solid;" >'+
-					'<p id="info1" style="text-align:left;font-size:120%;" ></p>'+
-					' <h4 id="info4" style="margin-left:5%;"></h4>'+
-					' <h3 id="info5" style="margin-left:5%;"></h3>'+
-					'<h3 id="info3" style="margin-left:5%;"></h3>'+
-					'<p id="info2" style=" font-size:5vw;color:gray;"> Cliquez sur une station<br><i class="glyphicon glyphicon-arrow-right "></i></p>'+
-					'<h3 id="info6" style="margin-left:5%;"></h3>'+
-					
+						'<div id="myBTN" ><i class="glyphicon glyphicon-info-sign"></i></div>'+
+						'<p id="info1" style="text-align:left;font-size:120%;" ></p>'+
+						' <h4 id="info4" style="margin-left:5%;"></h4>'+
+						' <h3 id="info5" style="margin-left:5%;"></h3>'+
+						'<h3 id="info3" style="margin-left:5%;"></h3>'+
+						'<p id="info2" style=" font-size:5vw;color:gray;"> Cliquez sur une station<br><i class="glyphicon glyphicon-arrow-right "></i></p>'+
+						'<h3 id="info6" style="margin-left:5%;"></h3>'+
 					'</div>'+
 					'<div class="col-sm-9" >'+
-					'<div id="myBTN" ><i class="glyphicon glyphicon-info-sign"></i></div> '+
-						'<div id="divmap" style="height:400px;border:2px solid white;width:100%;"></div>'+
+						'<div id="divmap" style="height:420px;border:2px solid white;width:100%;"></div>'+
+					'</div>'+
+				'</div>'+
+				'<br>'+
+				
+				'<div class="row">'+
+					'<div class="col-sm-2" >'+
+						'<button class="button" id="Bmax" onclick="opacity(1)">Max C°</button> '+
+						'<button class="button" id="Bmin" onclick="opacity(2)">Min C°</button> '+
+						'<button class="button" id="Bpluie" onclick="opacity(3)">Precipitation</button> '+
+						'<br>'+
+						'<div class="slidecontainer">'+
+							'<p>Seuil  de séchresse:</p>'+
+								'<input id="RSMax" type="range" min="0" max="101" value="50" step="10">'+
+								'<br>'+
+							'<p>Seuil  de précipitation:</p>'+
+								'<input id="RSPluie" type="range" min="0" max="101" value="50" step="10">'+
+						 '</div>'+
+					'</div>'+
+					'<div class="col-sm-10" >'+
+						'<div  style="height:700px;text-align:center;color:lightgray;"><svg id="graphTimeline" height="500" width="1100"></svg></div>'+
 					'</div>'+
 				'</div>'+
 			'</div>'+
+			
 				
 			'<div id="menu2" class="tab-pane fade ">'+
 				'<p>Carte innondation</p>'+
 				'</div>'+
 				
 				'<div id="menu3" class="tab-pane fade ">'+
+				
 				'</div>'+
 		' </div>';
 	
 document.getElementById("INFO").innerHTML=info;
 RADAR();
- meteo();
+meteo();
+//d3.select("#graphTimeline").attr("width")
+
 }
 
 function meteo(){
@@ -53,10 +76,11 @@ var map = L.map('divmap');
 			minZoom: 8 }
 		) .addTo(map);
 				  
-		
+		var STS = L.layerGroup();
+		var BSS = L.layerGroup();
 		
 		//CONTOUR Herault
-		$.ajax({
+	$.ajax({
 		url: "data/data_climat/dataMAP.geojson", //Nom du fichier à charger.
 		dataType: "json", //Type du fichier à charger. 
 		success: function(zone){
@@ -72,7 +96,7 @@ var map = L.map('divmap');
 		 }		});
 		
 		//Station
-		$.ajax({
+	$.ajax({
    		type: "GET",
     	url: "data/data_climat/station.csv",
     	dataType: "text",
@@ -110,7 +134,7 @@ var map = L.map('divmap');
 		 			layer.on('click', function(e){
 		 			var stationID=feature.properties["id_station"];
 		 			var stationStart=feature.properties["debut_peri"];
-		 			//graph(stationID,stationStart);
+		 			graph(stationID,stationStart);
 		 			var info1= "<strong><sup>#</sup>"+
 		 								feature.properties["id_station"]+"-"+
 		 								feature.properties["nom_station"] +
@@ -156,22 +180,63 @@ var map = L.map('divmap');
 		 					icon:ICONM
 		 				});
 		 			}	
-		 		}
-		 	}).addTo(map);
+				}
+			}).addTo(map).addTo(STS);
+			
+			
 		 		
 		 		
-		 	}
-});
+		}
+	});
+	
+	var baseMaps = {
+				"Stations": STS,
+				"Bassins": BSS,
+			};
+	L.control.layers(null,baseMaps).addTo(map);
 		
-		
-var modal = document.getElementById('myModal');
-var btn = document.getElementById("myBTN");
-var span = document.getElementsByClassName("close")[0];
-		
-btn.onclick = function() { modal.style.display = "block";}
-span.onclick = function() {modal.style.display = "none";}
-window.onclick = function(event) {if (event.target == modal) {modal.style.display = "none";}}
 
+	var modal = document.getElementById('myModal');
+	var btn = document.getElementById("myBTN");
+	var span = document.getElementsByClassName("close")[0];
+		
+	btn.onclick = function() { modal.style.display = "block";}
+	span.onclick = function() {modal.style.display = "none";}
+	window.onclick = function(event) {if (event.target == modal) {modal.style.display = "none";}}
+	
 }
 
-
+function opacity(ID){
+	if (ID==1){
+		if (document.getElementsByClassName("linemax")[0].style.opacity==0){
+			document.getElementsByClassName("linemax")[0].style.opacity=1;
+			document.getElementById("Bmax").style.backgroundColor="#FD856A";
+			}
+		else{
+			document.getElementsByClassName("linemax")[0].style.opacity=0;
+			document.getElementById("Bmax").style.backgroundColor="white";
+		}
+	}
+	else if (ID==2){
+		if (document.getElementsByClassName("linemin")[0].style.opacity==0){
+			document.getElementsByClassName("linemin")[0].style.opacity=1;
+			document.getElementById("Bmin").style.backgroundColor="#FDC75D";
+			}
+		else{
+			document.getElementsByClassName("linemin")[0].style.opacity=0;
+			document.getElementById("Bmin").style.backgroundColor="white";
+			}
+	}
+else if (ID==3){
+		if (document.getElementsByClassName("bar")[0].style.opacity==0){
+			var cols = document.getElementsByClassName("bar");
+			for(i=0; i<cols.length; i++) { cols[i].style.opacity=1;};
+			document.getElementById("Bpluie").style.backgroundColor="steelblue";
+			}
+		else{
+			var cols = document.getElementsByClassName("bar");
+			for(i=0; i<cols.length; i++) { cols[i].style.opacity=0;}
+			document.getElementById("Bpluie").style.backgroundColor="white";
+		 }
+	}
+}

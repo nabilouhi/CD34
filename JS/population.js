@@ -14,6 +14,7 @@ var info = '<div class="container"><h3>Démographie</h3> '+
 				'</div>'+
 				
 			'<div id="menu2" class="tab-pane fade ">'+
+			'<p>[En construction ...]</p>'+
 				
 				'</div>'+
 		' </div>';

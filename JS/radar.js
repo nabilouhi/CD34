@@ -2,7 +2,7 @@
 //document.getElementById("d3V").src="https://d3js.org/d3.v3.min.js";
 var HTML=`<div class="jumbotron text-center">
     <h1>Radar</h1>      
-    <p> Evaluez le niveau de contribution de votre action à chaque ODD (1=Faible contribution  4=Contribution significative)</p>
+    <p> Evaluez le niveau de contribution de votre action à l'atteinte de chaque ODD  </p>  <p>  <b>1</b> = Contribution insignifiante  <b>2</b>= Contribution mineure  <b>3</b>= Contribution modérée <b>4</b> = Contribution majeure</p>
   </div>
 <div class="container-fluid">
   <table class="table">
@@ -140,33 +140,35 @@ var HTML=`<div class="jumbotron text-center">
   
   <div class="row"style="padding-left:30px;"><input id="titre" type="text" class="form-control" value="Titre" style="padding-left:20px"><br><br></div>
 		<div class="row">
-<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" width="200%"></div>
-<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" width="200%"></div>
-<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-03.png" width="200%"></div>
+<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-01.png" width="100%"></div>
+<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-02.png" width="100%"></div>
+<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-03.png" width="100%"></div>
 		</div>
 		<div class="row">
-<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-04.png" width="200%"></div>
-<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-05.png" width="200%"></div>
-<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-06.png" width="200%"></div>
+<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-04.png" width="100%"></div>
+<div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-05.png" width="100%"></div>
+<div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-06.png" width="100%"></div>
 		</div>
 		<div class="row">
-  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-07.png" width="200%"></div>
-  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-08.png" width="200%"></div>			
-  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-09.png" width="200%"></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-07.png" width="100%"></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-08.png" width="100%"></div>			
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-09.png" width="100%"></div>
   </div>
 		<div class="row">
-  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-10.png" width="200%"></div>
-  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-11.png" width="200%"></div>
-  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-12.png" width="200%"></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-10.png" width="100%"></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-11.png" width="100%"></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-12.png" width="100%"></div>
 		</div>
 		<div class="row">
-  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-13.png" width="200%"></div>
-  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-14.png" width="200%"></div>
-  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" width="200%"></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-13.png" width="100%"></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-14.png" width="100%"></div>
+  <div class="col-sm-4"><img src="RADAR/img/F_SDG goals_icons-individual-rgb-15.png" width="100%"></div>
   </div>
 		<div class="row">
-  <div class="col-sm-6" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" height=65px></div>
-  <div class="col-sm-6" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-17.png" height=65px></div>
+		<div class="col-sm-2" ></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-16.png" width="100%"></div>
+  <div class="col-sm-4" ><img src="RADAR/img/F_SDG goals_icons-individual-rgb-17.png" width="100%"></div>
+		<div class="col-sm-2" ></div>
 		</div>
 <br><br>
  <div class="row"style="padding-left:30px;"><textarea class="form-control" rows="5" id="comment"> Commentaire:</textarea></div>
@@ -179,7 +181,8 @@ var HTML=`<div class="jumbotron text-center">
 </div>
 
 <div class="text-center" ><button type="button" class="btn" onclick="PDF()">Export PDF</button></div>
-<div class="text-center" ><button type="button" class="btn" onclick="PDF2()">Export JPEG</button></div>	
+<br><br>
+<div class="text-center tooltip" ><span class="tooltiptext"> En construction...</span><button type="button" class="btn" onclick="PDF2()" disabled>Export JPEG</button></div>	
 <br><br>
 
 <p class="text-center"><a href="https://www.un.org/sustainabledevelopment/fr/">OBJECTIFS de Developpement Durable</a></p> `;
