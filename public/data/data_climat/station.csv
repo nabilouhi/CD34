@@ -1,0 +1,68 @@
+ID_STATION,ID_MF,LONG,LAT,ALTITUDE,INSEE,NOM_COMMUNE,NOM_STATION,ZONE_HYDROGRAPHIQUE,VALIDATION,FLAG_HS
+3,34008001,3.1083409,43.5842559,184,34008,LES AIRES,La Garenne,Y253 - L'Orb de la Mare au Jaur,Validée,0
+6,,2.734423,43.320147,80,34020,AZILLANET,Azillanet  Mairie,Y144 - L'Ognon,Contrôlée,0
+7,34026001,2.755414,43.297833,86,34026,BEAUFORT,Beaufort,Y144 - L'Ognon,Validée,1
+9,34028003,3.146359,43.6402132,366,34028,BEDARIEUX,Bédarieux Aérodrome,Y251 - L'Orb du Graveson inclus à la Mare,Validée,0
+11,34030002,2.9629647,43.4907593,192,34030,BERLOU,Le Burguet,Y255 - L'Orb du Jaur au Vernazobre,Validée,0
+13,34032002,3.1471452,43.3382568,28,34032,BEZIERS,Béziers  la Courtade,Y258 - L'Orb du Taurou à la mer Méditerranée,Validée,0
+12,34032001,3.2200079,43.3378723,89,34032,BEZIERS,Béziers  ville,Y258 - L'Orb du Taurou à la mer Méditerranée,Validée,1
+14,34032015,3.2022589,43.3023554,37,34032,BEZIERS,Béziers-Bayssan  Domaine Bayssan,Y258 - L'Orb du Taurou à la mer Méditerranée,Validée,0
+16,34038001,3.1623148,43.709503,280,34038,LE BOUSQUET-D'ORB,Le Bousquet-d'Orb  Cazilhac,Y250 - L'Orb de sa source au Graveson,Validée,1
+17,34040001,3.2561275,43.6531471,445,34040,BRENAS,Brenas,Y223 - Le Salagou,Validée,0
+19,,3.3637819,43.5672712,101,34045,CABRIERES,Cabrières,Y232 - La Boyne,Contrôlée,0
+23,34051001,3.474853,43.5958598,49,34051,CANET,Canet  le Bosc,Y230 - L'Hérault de la Lergue au ruisseau de Rouvièges,Validée,0
+32,34069001,3.0983143,43.4031565,90,34069,CAZOULS-LES-BEZIERS,Cazouls-les-Béziers  Les Trois Angles,Y257 - L'Orb du Vernazobre au Taurou inclus,Validée,1
+34,,3.0683285,43.4526875,50,34074,CESSENON-SUR-ORB,Cessenon  Viranel,Y257 - L'Orb du Vernazobre au Taurou inclus,Contrôlée,0
+35,,3.8929611,43.8611182,161,34078,CLARET,Claret  Farjou,Y342 - Le Brestalou,Contrôlée,0
+36,34079001,3.4343858,43.6323625,98,34079,CLERMONT-L'HERAULT,Clermont l'Hérault  gendarmerie,Y224 - La Lergue du Salagou à L'Hérault,Validée,1
+37,34079004,3.3985665,43.6565605,149,34079,CLERMONT-L'HERAULT,Clermont l'Herault  Salagou,Y223 - Le Salagou,Validée,0
+38,34082001,3.7745677,43.6771907,100,34082,COMBAILLAUX,Combaillaux  les Sajolles,Y310 - La Mosson de sa source au ruisseau de Miege Sole inclus,Validée,1
+39,34086001,2.6935998,43.4970895,500,34086,COURNIOU,Courniou  Prouilhe,Y254 - Le Jaur,Validée,1
+40,,3.7409961,43.5307022,53,34095,FABREGUES,Fabrègues,Y313 - Ruisseau du Coulazou,Contrôlée,0
+42,,3.8214614,43.8634078,310,34099,FERRIERES-LES-VERRERIES,Ferrières-les-Verreries  mas de Baume,Y212 - Le Lamalou,Contrôlée,0
+47,34109001,3.2752009,43.5140157,120,34109,GABIAN,Gabian,Y236 - La Thongue,Validée,1
+49,34114001,3.556256,43.662509,58,34114,GIGNAC,Gignac  la Meuse,Y214 - L'Hérault du Verdus à la Lergue,Validée,1
+51,34119001,3.1138791,43.5932208,192,34119,HEREPIAN,Hérépian,Y253 - L'Orb de la Mare au Jaur,Validée,1
+52,34121001,3.1951381,43.738775,390,34121,JONCELS,Joncels,Y251 - L'Orb du Graveson inclus à la Mare,Validée,1
+54,34135001,3.1651276,43.2739024,21,34135,LESPIGNAN,Lespignan  Les Passerieres,Y161 - L'Aude de la Cesse à la mer Méditerranée,Validée,0
+55,34141002,2.6357292,43.3147319,150,34141,LA LIVINIERE,La Livinière  bourg,Y144 - L'Ognon,Validée,1
+56,,2.6219303,43.3279895,201,34141,LA LIVINIERE,La Livinière  Ste Eulalie,Y144 - L'Ognon,Contrôlée,0
+57,34142001,3.3205179,43.739387,185,34142,LODEVE,Lodève  Versailles Premerlet,Y221 - La Lergue du Laurounet au Roubieu,Validée,0
+59,34145001,4.1323645,43.6645968,7,34145,LUNEL,Lunel  Caserne des Pompiers,Y334 - Côtiers du Bérarge au Vidourle,Validée,1
+62,34151005,4.168096,43.6338476,2,34151,MARSILLARGUES,mas de Carrière c.e.h.m,Y334 - Côtiers du Bérarge au Vidourle,Validée,0
+64,34162001,3.5543575,43.4726142,45,34162,MONTAGNAC,Montagnac  les Sacristains,Y300 - Côtiers de L'Hérault au ruisseau de Nègue Vaques inclus,Validée,1
+65,34163001,3.688127,43.6358395,142,34163,MONTARNAUD,Montarnaud  Le Bois d'Arnaud,Y310 - La Mosson de sa source au ruisseau de Miege Sole inclus,Validée,0
+68,34172008,3.8584285,43.6191601,50,34172,MONTPELLIER,Montpellier  ACH avenue d'Assas,Y321 - Le Lez de la Lironde incluse la mer Méditerranée,Validée,1
+73,34186001,3.3059314,43.6551509,187,34186,OCTON,Octon  Mas de Ruffas,Y223 - Le Salagou,Validée,0
+75,,2.9113473,43.555122,174,34187,OLARGUES,Olargues  champ des Horts,Y254 - Le Jaur,Contrôlée,0
+136,34199004,3.4032133,43.4397324,30,34199,PEZENAS,Pézenas sa  Bonne Terre,Y235 - L'Hérault de la Peyne à la Thongue,Validée,1
+79,34200001,3.2515172,43.622007,400,34200,PEZENES-LES-MINES,Mas Bousquet,Y223 - Le Salagou,Validée,1
+80,34200003,3.2518641,43.6220152,404,34200,PEZENES-LES-MINES,Mas Bousquet,Y223 - Le Salagou,Validée,0
+81,,3.5265734,43.5521807,56,34204,PLAISSAN,Plaissan,Y231 - L'Hérault du ruisseau de Rouvièges inclus à la Boyne,Contrôlée,0
+84,34210001,3.5203534,43.5797704,69,34210,LE POUGET,Le Pouget  l'Estang,Y231 - L'Hérault du ruisseau de Rouvièges inclus à la Boyne,Validée,0
+85,34212001,3.3256375,43.764478,273,34212,POUJOLS,Poujols  Bourg,Y220 - La Lergue de sa source au Laurounet inclus,Validée,1
+86,,3.2719143,43.4856653,89,34214,POUZOLLES,Pouzolles,Y236 - La Thongue,Contrôlée,0
+88,,2.9767881,43.4409929,107,34218,PRADES-SUR-VERNAZOBRE,Prades sur Vernazobre  La Croix Sainte Eulalie,Y256 - Le Vernazobre,Contrôlée,0
+89,,3.0726769,43.3756481,70,34225,PUISSERGUIER,Puisserguier  domaine de la Guiraude,Y258 - L'Orb du Taurou à la mer Méditerranée,Contrôlée,0
+91,34232001,3.0283781,43.5016752,150,34232,ROQUEBRUN,Roquebrun  Jardin mediterraneen,Y255 - L'Orb du Jaur au Vernazobre,Validée,0
+96,,4.0912514,43.7319253,63,34246,ENTRE-VIGNES,Saint-Christol  bois de l'Hôpital,Y346 - Le Vidourle de la Bénovie à la mer Méditerranée,Contrôlée,0
+98,34249002,3.9858272,43.7350186,104,34249,SAINT-DREZERY,Saint-Drézéry  cave cooperative,Y333 - Le Bérarge,Validée,1
+130,34249002,3.9933644,43.7287857,75,34249,SAINT-DREZERY,Saint-Drézéry,Y333 - Le Bérarge,Validée,0
+101,,3.6192859,43.8313817,187,34264,SAINT-JEAN-DE-BUEGES,Saint-Jean-de-Buèges,Y211 - L'Hérault de l'Alzon au Lamalou,Contrôlée,0
+103,34269001,2.857606,43.3856366,256,34269,SAINT-JEAN-DE-MINERVOIS,Les Causses Bas,Y160 - La Cesse,Validée,0
+104,34274001,3.7311515,43.7862148,194,34274,SAINT-MARTIN-DE-LONDRES,Saint-Martin-de-Londres,Y212 - Le Lamalou,Validée,0
+105,34276002,3.8560992,43.7685034,130,34276,SAINT-MATHIEU-DE-TREVIERS,Saint-Mathieu-de-Treviers,Y320 - Le Lez de sa source à la Lironde,Validée,1
+106,34276003,3.8561116,43.7685034,130,34276,SAINT-MATHIEU-DE-TREVIERS,Saint-Mathieu-de-Tréviers  St Mathieu,Y320 - Le Lez de sa source à la Lironde,Validée,1
+107,34277001,3.5161295,43.8423307,574,34277,SAINT-MAURICE-NAVACELLES,Bourg,Y203 - La Vis,Validée,0
+110,34292001,3.3139655,43.6195681,200,34292,SALASC,Salasc,Y223 - Le Salagou,Validée,1
+111,34293001,2.7039839,43.6021628,685,34293,LA SALVETAT-SUR-AGOUT,La Salvetat sur Agout  Barri Campemare,O401 - L'Agout du confluent des Escandes (inclus) au confluent de la Vèbre,Validée,0
+112,34300001,3.3314812,43.4421888,70,34300,SERVIAN,Servian  Domaine de St Michel,Y236 - La Thongue,Validée,1
+113,34300002,3.3040537,43.4132821,50,34300,SERVIAN,Servian  le puech Arnaud,Y236 - La Thongue,Validée,0
+115,34302001,2.6753415,43.3271465,138,34302,SIRAN,Siran  Najac,Y144 - L'Ognon,Validée,0
+116,34306001,3.3475019,43.7069997,250,34306,SOUMONT,Les Caoumelles,Y222 - La Lergue du Roubieu inclus au Salagou,Validée,0
+118,34319001,3.3019262,43.5511754,153,34319,VAILHAN,Vailhan  Bourg,Y234 - La Peyne,Validée,0
+119,34322001,3.8712696,43.7983778,150,34322,VALFLAUNES,Valflaunès,Y320 - Le Lez de sa source à la Lironde,Validée,1
+121,,3.8446777,43.7880669,125,34322,VALFLAUNES,Valflaunès  la Plaine,Y320 - Le Lez de sa source à la Lironde,Contrôlée,0
+123,34330001,4.0966316,43.7212431,45,34330,VERARGUES,Verargues  Le Boulidou,Y334 - Côtiers du Bérarge au Vidourle,Validée,0
+127,34339001,2.8809015,43.3642538,212,34339,VILLESPASSANS,Combebelle à Bize-Minervois,Y160 - La Cesse,Validée,0
+128,,3.5832884,43.479741,31,34341,VILLEVEYRAC,Villeveyrac,Y301 - Côtiers du ruisseau de Nègue Vasques à la Vène,Contrôlée,0
