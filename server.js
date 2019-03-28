@@ -3,6 +3,8 @@ let PNG = require('save-svg-as-png')
 let app =express()
 var router = express.Router();
 
+const port=process.env.PORT || 8080
+
 
 app.set('view engine','ejs')
 app.use(express.static('public'))
@@ -47,4 +49,5 @@ app.get('/',(request,response)=>{
 	response.render('index')
 })
 
-app.listen(8080)
+app.listen(port)
+console.log('And the magic happens on port ' + port)
